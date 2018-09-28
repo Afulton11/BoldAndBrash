@@ -27,17 +27,6 @@ p {
   flex-direction: column;
 }
 
-.banana {
-  position: absolute;
-  right: 5%;
-  top: 5%;
-}
-
-.banana img {
-  max-width: 6em;
-  max-height: 6em;
-}
-
 .brash-container {
   position: absolute;
   left: 50%;
@@ -68,6 +57,7 @@ p {
 .hosts-container {
   position: fixed;
   transform: translate(0, 25%);
+  list-style: none;
 }
 
 .head-container {
