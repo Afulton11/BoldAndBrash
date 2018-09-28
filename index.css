@@ -20,6 +20,24 @@ p {
   text-decoration: underline;
 }
 
+.center-h {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banana {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+.banana img {
+  max-width: 6em;
+  max-height: 6em;
+}
+
 .brash-container {
   position: absolute;
   left: 50%;
@@ -38,6 +56,8 @@ p {
 
 .brash img {
   min-height: 100%;
+  // 780px represents the width of the bold and brash image.
+  min-width: 780px;
 }
 
 .site-container {
@@ -47,16 +67,23 @@ p {
 
 .hosts-container {
   position: fixed;
-  transform: translate(0, 50%);
+  transform: translate(0, 25%);
 }
 
 .head-container {
   align-items: center;
   justify-content: center;
+  padding-bottom: 2em;
 }
 
 .head-container p h1 h2 h3 h4 h5 span {
   text-align: center;
+}
+
+.head-container img {
+  max-width: 6em;
+  max-height: 6em;
+  border-radius: 200%;
 }
 
 .middle-container {
