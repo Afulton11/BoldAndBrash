@@ -1,4 +1,14 @@
-boldandbrash {
-  min-width: 100%;
+body {
+  background-color: #F0BF46;
+}
+
+.boldandbrash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.boldandbrash img {
   min-height: 100%;
 }
