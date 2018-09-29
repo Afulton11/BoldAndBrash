@@ -45,7 +45,7 @@ p {
 
 .brash img {
   min-height: 100%;
-  // 780px represents the width of the bold and brash image.
+  /* 780px represents the width of the bold and brash image. */
   min-width: 780px;
 }
 

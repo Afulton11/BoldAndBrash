@@ -91,8 +91,11 @@
         x:  (Math.random() < 0.5 ? -1 : 1) * (Math.random() / 2),
         y: 1
       };
-      
-      this.position = {x: x - 10, y: y - 20};
+      var doc = document.documentElement;
+      var left = (window.pageXOffset || doc.scrollLeft) - (doc.clientLeft || 0);
+      var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
+      console.info(top);
+      this.position = {x: x - 10, y: y - 90 + top};
 
       this.element = document.createElement('span');
       this.element.innerHTML = character;
