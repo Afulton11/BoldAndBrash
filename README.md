@@ -1,2 +1,2 @@
 # BoldAndBrash
-The official open-source website of go.boldandbrash.org
+The official open-source website of http://go.boldandbrash.org
